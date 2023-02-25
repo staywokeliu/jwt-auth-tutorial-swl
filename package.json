@@ -1,0 +1,25 @@
+{
+  "name": "jwt-auth-tutorial-swl",
+  "version": "1.0.0",
+  "description": "## Reactを用いて、IDPW認証でのJWTの仕組みを理解 JWT入門、ユーザー登録・ログイン認証の流れを理解するため、YouTube動画を参考に手を動かしてWebAPIを作成します。 参考した動画は下記になります。",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/staywokeliu/jwt-auth-tutorial-swl.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/staywokeliu/jwt-auth-tutorial-swl/issues"
+  },
+  "homepage": "https://github.com/staywokeliu/jwt-auth-tutorial-swl#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
