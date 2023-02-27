@@ -9,7 +9,7 @@ JWT入門、ユーザー登録・ログイン認証の流れを理解するた�
 毎日アウトプットに頑張ります。
 
 ## 最初の環境構築
-```shell
+```diff
 # 初期化
 $ npm init -y
 # expressフレームワークとnodemonをインストール
@@ -23,6 +23,21 @@ package.jsonの8行目を修正
 
 # 起動
 $ npm start
+
+# バリデーションのモジュールをインストール
+[https://express-validator.github.io/docs](https://express-validator.github.io/docs)
+
+$ npm install --save express-validator
+
+# bcryptをインストール
+$ npm i bcrypt
+
+# json web tokenモジュールのインストール
+[https://www.npmjs.com/package/jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
+
+$ npm install jsonwebtoken
+
+
 ```
 
 
