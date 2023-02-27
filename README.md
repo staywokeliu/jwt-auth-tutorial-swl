@@ -23,9 +23,12 @@ package.jsonの8行目を修正
 
 # 起動
 $ npm start
+```
 
+## 必要なモジュールのインストール
+```
 # バリデーションのモジュールをインストール
-[https://express-validator.github.io/docs](https://express-validator.github.io/docs)
+https://express-validator.github.io/docs
 
 $ npm install --save express-validator
 
@@ -33,10 +36,9 @@ $ npm install --save express-validator
 $ npm i bcrypt
 
 # json web tokenモジュールのインストール
-[https://www.npmjs.com/package/jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
+https://www.npmjs.com/package/jsonwebtoken
 
 $ npm install jsonwebtoken
-
 
 ```
 
