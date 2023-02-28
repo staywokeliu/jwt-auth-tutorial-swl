@@ -26,7 +26,7 @@ $ npm start
 ```
 
 ## 必要なモジュールのインストール
-```
+```shell
 # バリデーションのモジュールをインストール
 https://express-validator.github.io/docs
 
@@ -51,8 +51,25 @@ $ npm install jsonwebtoken
 5. DBへ保存
 6. JWT発行して渡す
 
+## postmanでのAPI呼び出しテスト
+`http://localhost:5123/auth/register`
 
+![Screen Shot 2023-03-01 at 0 18 43](https://user-images.githubusercontent.com/119092801/221897789-6e49a2e2-312d-4251-b47b-0dcefce3af0c.png)
 
+`http://localhost:5123/auth/allUsers`
 
+![Screen Shot 2023-03-01 at 0 18 46](https://user-images.githubusercontent.com/119092801/221898004-01de3666-782d-4f13-b86c-4cfa10e8a344.png)
 
+`http://localhost:5123/auth/login`
+
+![Screen Shot 2023-03-01 at 0 18 48](https://user-images.githubusercontent.com/119092801/221898105-2479fb03-b224-44b3-9d1c-008f8e15dcc6.png)
+
+`http://localhost:5123/posts/public`
+
+![Screen Shot 2023-03-01 at 0 18 50](https://user-images.githubusercontent.com/119092801/221898155-f18a2c66-6c79-44fb-9eaa-fc1879cfd7dd.png)
+
+`http://localhost:5123/posts/private`
+![Screen Shot 2023-03-01 at 0 18 53](https://user-images.githubusercontent.com/119092801/221898202-91aa7a45-0fc5-47ca-917f-c8bbdc2bda1a.png)
+
+-----
 
